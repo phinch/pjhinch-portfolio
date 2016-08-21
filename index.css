@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    min-width: 1100px;
+}
+
+#header{
+    background: #f0f0f0;
+    margin-top: 51px;
+    height: 200px;
+    overflow-x: hidden;
+}
+
+.title{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+h1, h2, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    background: #222222;
+    height: 51px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+    display: inline-block;
+    background: #e0e0e0;
+}
+
+.nav{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #505050;
+}
+
+a:hover{
+    color: #000000;
+}
+
+.row{
+    height: 500px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.project{
+    display: inline-block;
+    width: 300px;
+    margin: 50px 25px 0 25px;
+    background: #eeeeee;
+    box-shadow: -3px -3px 3px 0px #d0d0d0;
+    height: 350px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+.project img{
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.proj-name{
+    margin: 25px auto 0 auto;
+    font-weight: bold;
+}
+
+.blurb{
+    width: 250px;
+    margin: 0 auto 0 auto;
+    height: 85px;
+}
+
+.description{
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    font-family: "PT Serif", serif;
+}
+

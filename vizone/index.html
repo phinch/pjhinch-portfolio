@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Viz1</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content=""> <!-- Your name here -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--# CSS #}-->
+  <link rel="stylesheet" href="css/style.css"> <!-- Add your CSS to this file -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+
+  <!--# JAVASCRIPT #}-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script> <!-- D3.js -->
+
+  <script type="text/javascript" src="js/crime_times.js"></script> <!-- Write your D3.js code for the heatmap in this file -->
+  <script src="js/train_times.js"></script> <!-- Write your D3.js code for the train diagram in this file -->
+</head>
+
+<body>
+	<h2 class = "title">Crime Density: When do the most reported crimes occur in Chicago?</h2>
+    <div class = "content" id = "crime">
+        <p>Given logged data of crimes in Chicago, we can see based on day and hour where the highest concentrations of reported crimes occur. As shown in the scale, a darker color indicates a greater number of crimes in that time period.</p>
+    </div>
+
+    <h2 class = "title">Trains: the Marey Visualization</h2>
+    <div class = "content" id = "trains">
+        <p>Marey's train visualization is an interesting (if not, in my opinion, particularly effective) way of viewing train schedules in a simultaneously visual and chronological format. Cities are separated by relative distance and train lines are plotted based on their departures and arrivals in one given day. Each train line's color is generated based on its name, and hovering over a line boldens it and shows a text tooltip of specific schedule times.
+
+I created a way of converting times into x-positions in order to draw the grid. 
+    </div>
+</body>
+
+</html>

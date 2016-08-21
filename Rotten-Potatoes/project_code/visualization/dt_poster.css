@@ -1,0 +1,80 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+body{
+    min-width: 1200px;
+}
+
+#header{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+button {
+	border-radius: 12px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+	width: 120px;
+	height: 40px;
+	color: white;
+	background-color: #606060;
+}
+
+#scrape{
+    width: 80px;
+    height: 30px;
+}
+
+.node{
+    vertical-align: middle;
+}
+
+.two{
+    margin: 0 220px 0 220px;
+}
+
+.three{
+    margin: 0 80px 0 80px;
+}
+
+.final{
+    margin: 0 30px 0 30px;
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+}
+
+.tier{
+    height: 120px;
+    text-align: center;
+}
+
+#scraper{
+    text-align: center;
+}
+
+#input{
+    width: 200px;
+}
+
+.tree{
+    position: absolute;
+}
+
+.tooltip{
+    position: absolute;
+    background: #e5e5e5;
+    color: #111111;
+    width: 160px;
+    text-align: center;
+    border-radius: 15%;
+    font-size: 14px;
+}
+
+.classtip{
+    width: 80px;
+}

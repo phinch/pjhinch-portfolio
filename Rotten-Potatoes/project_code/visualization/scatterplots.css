@@ -1,0 +1,39 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+#header{
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+#content{
+    text-align: center;
+}
+
+.box{
+    border: solid 1px black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+.name{
+    position: relative;
+    top: 50px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.descrip{
+    position: relative;
+    top: 35px;
+}
+
+.label{
+    font-size: 11px;
+}

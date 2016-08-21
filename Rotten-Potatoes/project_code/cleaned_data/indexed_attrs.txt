@@ -1,0 +1,40 @@
+0 business_id
+1 stars             0
+2 takeout           1
+3 drivethru         2
+4 outdoorseating    3
+5 caters            4
+6 noise             5
+7 p_garage
+8 p_street
+9 p_validated
+10 p_lot
+11 p_valet
+12 delivery         6
+13 price
+14 attire           7
+15 tv
+16 gf_dessert
+17 gf_latenight
+18 gf_lunch
+19 gf_dinner        8
+20 gf_breakfast
+21 gf_brunch
+22 reservations     9
+23 a_romantic
+24 a_intimate
+25 a_classy         10
+26 a_hipster
+27 a_divey
+28 a_touristy
+29 a_trendy
+30 a_upscale
+31 a_casual
+32 waiter           11
+33 creditcards
+34 kids
+35 groups
+36 alcohol          12
+37 wheelchair
+38 wifi
+39 counter|dogs|dancing|coat|smoking|happyhour|m_dj|m_background|m_jukebox|m_live|m_video|m_karaoke|byob|corkage|byobcorkage|tfhours|ages|d_dairyfree|d_glutenfree|d_vegan|d_kosher|d_halal|d_soyfree|d_vegetarian|appt|insurance

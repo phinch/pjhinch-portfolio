@@ -1,0 +1,14 @@
+1: stars [0.5,1.0,...,5.0]
+2: takeout
+3: drivethru
+4: outdoorseating
+5: caters
+6: noise [quiet,average,loud,very_loud]
+12: delivery
+13: price (PREDICT) [1,2,3,4]
+14: attire [casual,formal,dressy]
+19: dinner
+22: reservations
+25: classy
+32: waiter
+36: alcohol [none,beer_and_wine,full_bar]
